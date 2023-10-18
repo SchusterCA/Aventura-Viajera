@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #050a42;
+    height: 150px;
+    width: 100%;
+    /*padding: 20px;*/
+    font-size: 18px;
+}
+
+.logo {
+    padding: 100px;
+}
+
+.titulo {
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/*.barra{
+    float: right;
+    }*/
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+}
+
+.foto {
+    width: 900px;
+    height: 500px;
+}
+
+p {
+    /*text-align: center;*/
+    padding: 35px;
+    font-size: 20px;
+}
+
+.ofertas {
+    text-align: center;
+}
+
+.panel {
+    container: fluid;
+    text-align: center;
+}
+
+.horiz {
+    display: flex;
+    flex-direction: row;
+}
+
+.columna {
+    padding: 20px;
+    /*border: 5px solid #1b1b32;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s ease-in;
+}
+
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+    background-color: #050a42;
+    color: white;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.parrafo{
+    text-align:center
+}
