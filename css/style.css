@@ -1,57 +1,78 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+html{
+ box-sizing: border-box;
+ font-size: 62.5%;   
 }
 
-header {
-    background-color: #050a42;
-    height: 150px;
-    width: 100%;
-    /*padding: 20px;*/
-    font-size: 18px;
+*,*:before,*:after{
+    box-sizing: inherit;
 }
 
-.logo {
-    padding: 100px;
+
+
+/** header **/
+
+.header {
+    background: #050a42;
+    color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0,5rem;
+    height: 10rem;
 }
+
+
+@media(min-width:768px){
+   .barra{
+    display: flex;
+    align-items:center
+   } 
+}
+
 
 .titulo {
-    padding: 50px;
-    color: white;
-    font-size: 25px;
-    text-align: left;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    margin-right: 25rem;
 }
 
-.img {
-    width: 200px;
-    height: 200px;
-    float: left;
+.logo img{
+    width: 14rem;
+    height: 14rem;
+    flex-shrink: 0
+
 }
 
-/*.barra{
-    float: right;
-    }*/
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-}
-
-.barra a {
-    color: white;
+.navegacion a{
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
+    display: inline-block;
+    margin-right: 27rem;
+
 }
+
+.navegacion a:visited{
+    color: #FFF;
+    margin-right: 20rem;
+}
+
+
+
+
+
+/** carrousel **/
 
 .foto {
     width: 900px;
     height: 500px;
 }
 
-p {
+.ofertas h1{
     /*text-align: center;*/
     padding: 35px;
-    font-size: 20px;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .ofertas {
@@ -97,19 +118,38 @@ p {
     border-radius: 50%;
 }
 
-.parrafo {
-    text-align: center
+.parrafo{
+    text-align:center
 }
 
-.seccion-js{
-    padding: 300px;
+/** VIDEO **/
+
+.video h1{
+
+    text-align: center;
+    padding: 35px;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.seccion-oscura {
+.video iframe{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .calculadora h1{
+    text-align: center;
+    padding: 35px;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  /** footer **/
+
+  .seccion-oscura {
     color: white;
     background-color: #050a42;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -157,6 +197,9 @@ p {
     color: black;
 }
 
-.final{
-    padding: 50px;
-}
+  .final {
+    width: 14rem;
+    height: 14rem;
+    flex: shrink 0;
+
+  }
