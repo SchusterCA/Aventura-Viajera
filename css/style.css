@@ -1,13 +1,13 @@
-
-html{
- box-sizing: border-box;
- font-size: 62.5%;   
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
-*,*:before,*:after{
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
-
 
 
 /** header **/
@@ -15,20 +15,18 @@ html{
 .header {
     background: #050a42;
     color: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: 'Josefin Sans', sans-serif;
-    padding: 0,5rem;
+    padding: 0, 5rem;
     height: 10rem;
 }
 
-
-@media(min-width:768px){
-   .barra{
-    display: flex;
-    align-items:center
-   } 
+@media(min-width:768px) {
+    .barra {
+        display: flex;
+        align-items: center
+    }
 }
-
 
 .titulo {
     font-size: 3rem;
@@ -36,30 +34,26 @@ html{
     margin-right: 25rem;
 }
 
-.logo img{
+.logo img {
     width: 14rem;
     height: 14rem;
     flex-shrink: 0
-
 }
 
-.navegacion a{
-    font-size: 3rem;
+.navegacion a {
+    font-size: 2rem;
     font-family: 'Inter', sans-serif;
+    color: white;
     text-decoration: none;
     display: inline-block;
-    margin-right: 27rem;
+    margin-right: 17rem;
 
 }
 
-.navegacion a:visited{
-    color: #FFF;
-    margin-right: 20rem;
+.navegacion a:hover {
+    color: #e9d758;
+    /*margin-right: 20rem;*/
 }
-
-
-
-
 
 /** carrousel **/
 
@@ -68,10 +62,10 @@ html{
     height: 500px;
 }
 
-.ofertas h1{
+.ofertas h1 {
     /*text-align: center;*/
     padding: 35px;
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -82,11 +76,6 @@ html{
 .panel {
     container: fluid;
     text-align: center;
-}
-
-.horiz {
-    display: flex;
-    flex-direction: row;
 }
 
 .columna {
@@ -100,6 +89,36 @@ html{
 }
 
 
+/** VIDEO **/
+
+.video h1 {
+
+    text-align: center;
+    padding: 35px;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.calculadora h1 {
+    text-align: center;
+    padding: 35px;
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/**banner calidad**/
+
+.calidad{
+    height: 350px;
+    width: 350px;
+}
+
 .experiencia {
     padding: 40px 40px 60px 40px;
     background-color: #050a42;
@@ -108,6 +127,7 @@ html{
 
 .experiencia-titulo {
     font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     margin: 10px 0;
 }
@@ -118,35 +138,20 @@ html{
     border-radius: 50%;
 }
 
-.parrafo{
-    text-align:center
+
+.horiz {
+    display: flex;
+    flex-direction: row;
 }
 
-/** VIDEO **/
-
-.video h1{
-
-    text-align: center;
-    padding: 35px;
-    font-size: 45px;
-    font-family: 'Josefin Sans', sans-serif;
+.parrafo {
+    text-align: center
 }
 
-.video iframe{
-    display: block;
-    margin: 0 auto;
-  }
 
-  .calculadora h1{
-    text-align: center;
-    padding: 35px;
-    font-size: 45px;
-    font-family: 'Josefin Sans', sans-serif;
-  }
+/** footer **/
 
-  /** footer **/
-
-  .seccion-oscura {
+.seccion-oscura {
     color: white;
     background-color: #050a42;
     display: flex;
@@ -171,6 +176,7 @@ html{
 .iconos-redes-sociales a {
     width: 50px;
     height: 50px;
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,10 +189,9 @@ html{
 
 .iconos-redes-sociales i {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     transition: all 0.2s ease-in;
 }
-
 
 .iconos-redes-sociales a:hover {
     background-color: #e9d758;
@@ -197,9 +202,12 @@ html{
     color: black;
 }
 
-  .final {
+.final {
     width: 14rem;
     height: 14rem;
     flex: shrink 0;
+}
 
-  }
+.final1{
+    font-size: medium;
+}
