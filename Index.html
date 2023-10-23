@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,9 +29,9 @@
                 </a>
                 <h1 class="titulo"> Aventura Viajera</h1>
                 <nav class="navegacion">
-                    <a class="navegacion__enlace" href="#">Nosotros</a>
-                    <a class="navegacion__enlace" href="#">Galería</a>
-                    <a class="navegacion__enlace" href="#">Contacto</a>   
+                    <a class="navegacion__enlace" href="Nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="Galeria.html">Galería</a>
+                    <a class="navegacion__enlace" href="Contacto.html">Contacto</a>   
                 </nav>
             </div>
         </div>
@@ -57,20 +57,17 @@
                 <div class="columna col-12 col-md-4">
                     <h3 class="experiencia-titulo">Calidad</h3>
                     <img class="calidad" src="./img/cal1.png" alt="cal1">
-                    <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam accusamus illum soluta quidem odit
-                        et fugit sint.</p>
+                    <p class="parrafo"> Somos una empresa cuya finalidad es garantizar la mejor calidad a cada cliente ofreciendo solamente los mejores servicios.</p>
                 </div>
                 <div class="columna col-12 col-md-4">
                     <h3 class="experiencia-titulo">Recomendados</h3>
                     <img class="calidad" src="./img/cal2.png" alt="cal2">
-                    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vero saepe, mollitia enim quam
-                        culpa minus.</p>
+                    <p class="parrafo"> Nuestros clientes son los primeros en recomendarnos y nuestros servicios son siempre los mejores valorados , desde los alojamientos hasta nuestros trabajadores.</p>
                 </div>
                 <div class="columna col-12 col-md-4">
                     <h3 class="experiencia-titulo">Pagá como quieras</h3>
                     <img class="calidad" src="./img/cal3.png" alt="cal3">
-                    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam facere deleniti possimus provident
-                        consequatur!</p>
+                    <p class="parrafo"> Ofrecemos un sistema de pago donde podés abonar en la moneda que más te guste , teniendo además las mejores condiciones de pago.</p>
                 </div>
             </div>
             </div>
@@ -83,6 +80,33 @@
             <h1> ¡Calculá el costo del viaje en la moneda que quieras!</h1>
 
         </div>
+        <div>
+            <form class="calculadora" action="procesar.php">
+                <select name="moneda" id="pesos">
+                    <option value="$ARG">$ ARG</option>
+                </select>
+                <input type="moneda">
+                <br>
+                <button class="pasara">pasar a</button>
+                <br>
+                <select name="moneda" id="criptos">
+                    <option value="cripto">BTC</option>
+                    <option value="cripto">ETH</option>
+                    <option value="cripto">USDC</option>
+                    <option value="cripto">USDT</option>
+                    <option value="cripto">DAI</option>
+                    <option value="cripto">AXS</option>
+                    <option value="cripto">DOGE</option>
+                    <option value="cripto">LTC</option>
+                    <option value="cripto">LINK</option>
+                    <option value="cripto">CHZ</option>
+                </select>
+                <input type="cripto">
+            </form>
+        </div>
+        <aside>
+            <img class="monedita" src="./img/coin.png" alt="monedis">
+        </aside>
 
 
 
@@ -105,11 +129,28 @@
         <div>
             <img class="final" src="./img/logo.png" alt="logo">
         </div>
+        <div>
+            <a class="footer-texto" href="Nosotros.html">Nosotros</a>
+            <br>
+            <a  class="footer-texto" href="Galeria.html">Galería</a>
+            <br>
+            <a class="footer-texto" href="Contacto.html">Contacto</a>
+
+        </div>
         <div class="iconos-redes-sociales">
+            <h2>Seguinos en nuestras redes</h2>
+            <br>
             <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="#"><i class="fa-regular fa-envelope"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <div class="direcciones">
+            <p>Av. Del Pacífico 4435 CABA</p>
+            <br>
+            <p>Teléfono +54114545677</p>
+            <br>
+            <p>Mail aventuraviajeta.t@gmail.com</p>
         </div>
         <div>
             <p class="final1">Todos los derechos reservados- Equipo Web design 2023</p>
