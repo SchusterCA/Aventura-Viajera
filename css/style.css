@@ -153,7 +153,49 @@ html {
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
+}
 
+/**Calculadora**/
+
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+
+.calcu{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    padding: 50px 100px 50px;
+    border-radius: 10px;
+    background-color: #050a42;
+}
+
+.input{
+    border-radius: 13px;
+    padding: 15px 60px;
+    margin: 20px;
+    border: 2px;
+    color: #FFF;
+}
+
+.pasara{
+    border-radius: 13px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #e07a5f;
+    border: 2px #e07a5f;
+    color: #FFF;
+}
+
+.monedita{
+    position: relative;
+    z-index: 2;
+    left: 62%;
+    margin-top: -15%;
 }
 
 

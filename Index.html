@@ -80,49 +80,39 @@
             <h1> ¡Calculá el costo del viaje en la moneda que quieras!</h1>
 
         </div>
-        <div>
-            <form class="calculadora" action="procesar.php">
-                <select name="moneda" id="pesos">
-                    <option value="$ARG">$ ARG</option>
-                </select>
-                <input type="moneda">
-                <br>
-                <button class="pasara">pasar a</button>
-                <br>
-                <select name="moneda" id="criptos">
-                    <option value="cripto">BTC</option>
-                    <option value="cripto">ETH</option>
-                    <option value="cripto">USDC</option>
-                    <option value="cripto">USDT</option>
-                    <option value="cripto">DAI</option>
-                    <option value="cripto">AXS</option>
-                    <option value="cripto">DOGE</option>
-                    <option value="cripto">LTC</option>
-                    <option value="cripto">LINK</option>
-                    <option value="cripto">CHZ</option>
-                </select>
-                <input type="cripto">
-            </form>
+
+        <div class="centro">
+            <div class="calcu">
+                <form action="procesar.php">
+                    <select  class="pasara" name="moneda" id="pesos">
+                        <option value="$ARG">$ ARG</option>
+                    </select>
+                    <input class="input" type="moneda">
+                    <br>
+                    <button class="pasara">pasar a</button>
+                    <br>
+                    <select class="pasara" name="moneda" id="criptos">
+                        <option value="cripto">BTC</option>
+                        <option value="cripto">ETH</option>
+                        <option value="cripto">USDC</option>
+                        <option value="cripto">USDT</option>
+                        <option value="cripto">DAI</option>
+                        <option value="cripto">AXS</option>
+                        <option value="cripto">DOGE</option>
+                        <option value="cripto">LTC</option>
+                        <option value="cripto">LINK</option>
+                        <option value="cripto">CHZ</option>
+                    </select>
+                    <input class="input" type="cripto">
+                </form>
+            </div>
         </div>
-        <aside>
-            <img class="monedita" src="./img/coin.png" alt="monedis">
+        
+        
+        <aside class="monedita">
+            <img class="money" src="./img/coin.png" alt="monedis">
         </aside>
-
-
-
-
-
-
-
-
-
-
-
     </main>
-
-
-
-
 
     <footer class="seccion-oscura">
 
