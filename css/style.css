@@ -51,7 +51,7 @@ html {
         font-family: 'Inter', sans-serif;
         color: white;
         display: inline-block;
-        margin-right: 11rem;
+        margin-right: 8rem;
         text-decoration: none;
     
     }   
@@ -165,12 +165,10 @@ html {
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-.parrafo1{
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .parrafo2{
@@ -197,59 +195,293 @@ html {
 }
 
 .calcu{
+    width: 760px;
+    height: 387px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background: #050A42;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
-    padding: 50px 100px 50px;
-    border-radius: 10px;
-    background-color: #050a42;
+    color: #FFF;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.input{
-    border-radius: 13px;
-    padding: 15px 60px;
-    margin: 20px;
-    border: 2px;
-    color: #FFF;
+.argentinos{
+    width: 440px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D4EBFF;
+    background: #FFF;
+    margin: 4rem;
+}
+
+.NFT{
+    width: 440px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D4EBFF;
+    background: #FFF;
+    margin: 4rem;
+    
 }
 
 .pasara{
-    border-radius: 13px;
-    padding: 10px;
-    margin: 20px;
-    background-color: #e07a5f;
-    border: 2px #e07a5f;
+    width: 141px;
+    height: 51px;
+    flex-shrink: 0;
     color: #FFF;
+    border-radius: 20px;
+    border-color: #FF5559;
+    background: #FF5559;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pesos{
+    width: 141px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FF5559;
+    border-color: #FF5559;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cripto{
+    width: 141px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FF5559;
+    border-color: #FF5559;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .monedita{
+    width: 325px;
+    height: 403px;
+    transform: rotate(9.044deg);
+    flex-shrink: 0;
     position: relative;
     z-index: 2;
     left: 62%;
     margin-top: -15%;
 }
 
-.form h2{
-    text-align: center;
-    padding: 35px;
-    font-size: 30px;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
+/** NOSOTROS**/
+
+.snpp {
+    margin-bottom: 10rem;
 }
 
-h2{
-    text-align: center;
-    padding: 35px;
-    font-size: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.nosotros{
-    text-align: center;
+.snp {
     padding: 35px;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #f2cc8f;
+    text-align: center;
+}
+
+.sn1 {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin-right: 40rem;
+    height: 24.2rem;
+    flex-shrink: 0;
+    background-color: #050A42;
+}
+
+.nosotros1 {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 10px;
+}
+
+.parrafo1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+.foto1 {
+    padding: 1.5rem;
+    width: 370px;
+    height: 243px;
+    flex-shrink: 0;
+}
+
+
+
+.sn2 {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin-left: 40rem;
+    height: 24.2rem;
+    flex-shrink: 0;
+    background-color: #6C8EAD;
+}
+
+.nosotros2 {
+    color: #1E1E1E;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 10px;
+    margin-top: -4.6rem;
+}
+
+.foto2 {
+    padding: 1.5rem;
+    width: 370px;
+    height: 243px;
+    flex-shrink: 0;
+}
+
+
+
+.sn3 {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin-right: 40rem;
+    height: 24.2rem;
+    flex-shrink: 0;
+    background-color: #050A42;
+}
+
+.nosotros3 {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -4.6rem;
+
+}
+
+.foto3 {
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+
+.sn4 {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    margin-left: 40rem;
+    height: 24.2rem;
+    flex-shrink: 0;
+    background-color: #6C8EAD;
+}
+
+.nosotros4 {
+    color: #1E1E1E;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 10px;
+    margin-top: -4.6rem;
+}
+
+.foto4 {
+    padding: 1.5rem;
+    width: 370px;
+    height: 243px;
+    flex-shrink: 0
+}
+
+.barra-vertical {
+    width: 4rem;
+    height: 25rem ; 
+    background-color: #ff5733;
+    margin-left: 50%;
+    padding: 0;
+}
+
+
+/** CONTACTO  **/
+
+.contact1 {
+    color: #101010;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5rem;
+}
+
+.contact2 {
+    color: #101010;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.contactob {
+    width: 500px;
+    height: 120px;
+    background: #050A42;
+    margin-left: 70rem;
+    margin-right: 70rem;
+}
+
+.contactob p{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+
 }
 
 /** footer **/
