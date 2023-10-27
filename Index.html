@@ -77,6 +77,8 @@
             <h1> ¡Recorré Argentina con nosotros!</h1>
             <iframe width="560" height="315" src="./img/video.mp4.mp4" frameborder="0" allowfullscreen></iframe>
         </div>
+        
+        
         <div class="calculadora">
             <h1> ¡Calculá el costo del viaje en la moneda que quieras!</h1>
 
@@ -85,14 +87,14 @@
         <div class="centro">
             <div class="calcu">
                 <form action="procesar.php">
-                    <select  class="pasara" name="moneda" id="pesos">
+                    <select  class="pesos" name="moneda" id="pesos">
                         <option value="$ARG">$ ARG</option>
                     </select>
-                    <input class="input" type="moneda">
+                    <input class="argentinos" type="moneda">
                     <br>
                     <button class="pasara">pasar a</button>
                     <br>
-                    <select class="pasara" name="moneda" id="criptos">
+                    <select class="cripto " name="moneda" id="criptos">
                         <option value="cripto">BTC</option>
                         <option value="cripto">ETH</option>
                         <option value="cripto">USDC</option>
@@ -104,15 +106,16 @@
                         <option value="cripto">LINK</option>
                         <option value="cripto">CHZ</option>
                     </select>
-                    <input class="input" type="cripto">
+                    <input class="NFT" type="cripto">
                 </form>
+                <img class="monedita" src="./img/coin.png" alt="monedis">
             </div>
         </div>
         
         
-        <aside class="monedita">
+        <div class="monedita">
             <img class="money" src="./img/coin.png" alt="monedis">
-        </aside>
+        </div>
     </main>
 
     <footer class="seccion-oscura">
@@ -131,12 +134,15 @@
         </div>
         <div class="iconos-redes-sociales">
             <h2>Seguinos en nuestras redes</h2>
-            <br>
+            <div>
+                <p class="final1">Todos los derechos reservados- Equipo Web design 2023</p>
+            </div>
             <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="#"><i class="fa-regular fa-envelope"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
+        
         <div class="direcciones">
             <p>Av. Del Pacífico 4435 CABA</p>
             <br>
@@ -144,9 +150,7 @@
             <br>
             <p>Mail aventuraviajeta.t@gmail.com</p>
         </div>
-        <div>
-            <p class="final1">Todos los derechos reservados- Equipo Web design 2023</p>
-        </div>
+
     </footer>
 </body>
 
