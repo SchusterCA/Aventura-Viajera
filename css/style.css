@@ -17,17 +17,17 @@ html {
     color: #FFF;
     display: flex;
     justify-content: space-between;
-    height: 9rem;
+    height: 10rem;
     
 }
 
-@media(min-width:768px) {
+@media(min-width:780px) {
     .barra {
         display: flex;
         align-items: center;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 780px) {
     .titulo {
         font-size: 3rem;
         font-family: 'Inter', sans-serif;
@@ -72,7 +72,7 @@ html {
     margin-top: 10rem;
     text-align: center;
     padding: 3.5rem;
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Josefin Sans', sans-serif;
 
 }
@@ -98,7 +98,7 @@ html {
 
     text-align: center;
     padding: 3.5rem;
-    font-size: 45px;
+    font-size: 4.5rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -110,7 +110,7 @@ html {
 .calculadora h1 {
     text-align: center;
     padding: 3.5rem;
-    font-size: 45px;
+    font-size: 4.5rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -118,8 +118,8 @@ html {
 /**banner calidad**/
 
 .columna {
-    padding: 20px;
-    /*border: 5px solid #1b1b32;*/
+    padding: 2rem;
+    /*border: 0.5rem solid #1b1b32;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,8 +130,8 @@ html {
 
 
 .calidad{
-    height: 250px;
-    width: 250px;
+    height: 25rem;
+    width: 25rem;
 }
 
 
@@ -143,15 +143,15 @@ html {
 }
 
 .experiencia-titulo {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 .experiencia i {
     font-size: 2.5rem;
-    padding: 8px 19px;
+    padding: 0.8rem 1.9rem;
     border-radius: 50%;
 }
 
@@ -165,7 +165,7 @@ html {
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 2rem ;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -178,10 +178,10 @@ html {
     text-align: center;
     font-size: 2.5rem;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 50px;
+    padding: 5rem;
     background-color: #f2cc8f;
-    margin: 50px;
-    border-radius: 10px;
+    margin: 5rem;
+    border-radius: 1rem;
 }
 
 /**Calculadora**/
@@ -195,65 +195,65 @@ html {
 }
 
 .calcu{
-    width: 760px;
-    height: 387px;
+    width: 76rem;
+    height: 38.7rem;
     flex-shrink: 0;
-    border-radius: 13px;
+    border-radius: 1.3rem;
     background: #050A42;
     text-align: center;
     color: #FFF;
     text-align: center;
     font-family: Josefin Sans;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .argentinos{
-    width: 440px;
-    height: 68px;
+    width: 44rem;
+    height: 6.8rem;
     flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #D4EBFF;
+    border-radius: 1rem;
+    border: 0.1rem solid #D4EBFF;
     background: #FFF;
     margin: 4rem;
 }
 
 .NFT{
-    width: 440px;
-    height: 68px;
+    width: 44rem;
+    height: 6.8rem;
     flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #D4EBFF;
+    border-radius: 1rem;
+    border: 0.1rem solid #D4EBFF;
     background: #FFF;
     margin: 4rem;
     
 }
 
 .pasara{
-    width: 141px;
-    height: 51px;
+    width: 14.1rem;
+    height: 5.1rem;
     flex-shrink: 0;
     color: #FFF;
-    border-radius: 20px;
+    border-radius: 2rem;
     border-color: #FF5559;
     background: #FF5559;
     font-family: 'Josefin Sans', sans-serif;
     color: #FFF;
     text-align: center;
     font-family: Josefin Sans;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .pesos{
-    width: 141px;
-    height: 51px;
+    width: 14.1rem;
+    height: 5.1rem;
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 2rem;
     background: #FF5559;
     border-color: #FF5559;
     text-align: center;
@@ -262,10 +262,10 @@ html {
 }
 
 .cripto{
-    width: 141px;
-    height: 51px;
+    width: 14.1rem;
+    height: 5.1rem;
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 2rem;
     background: #FF5559;
     border-color: #FF5559;
     text-align: center;
@@ -275,8 +275,8 @@ html {
 }
 
 .monedita{
-    width: 325px;
-    height: 403px;
+    width: 32.5rem;
+    height: 40.3rem;
     transform: rotate(9.044deg);
     flex-shrink: 0;
     position: relative;
@@ -293,7 +293,7 @@ html {
 
 .snp {
     padding: 3.5rem;
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
 }
@@ -312,20 +312,20 @@ html {
     color: #1E1E1E;
     text-align: center;
     font-family: Josefin Sans;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     justify-content: flex-start;
     display: flex;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 
 .parrafo1 {
     color: #FFF;
     text-align: center;
-    font-family: Josefin Sans;
-    font-size: 24px;
+    font-family: Josefin Sans; 
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -334,8 +334,8 @@ html {
 
 .foto1 {
     padding: 1.5rem;
-    width: 370px;
-    height: 243px;
+    width: 37rem;
+    height: 24.3rem;
     flex-shrink: 0;
 }
 
@@ -354,20 +354,20 @@ html {
 .nosotros2 {
     color: #1E1E1E;
     font-family: Josefin Sans;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     justify-content: flex-end;
     display: flex;
-    margin-right: 10px;
+    margin-right: 1rem;
     margin-top: -4.6rem;
 }
 
 .foto2 {
     padding: 1.5rem;
-    width: 370px;
-    height: 243px;
+    width: 37rem;
+    height: 24.3rem;
     flex-shrink: 0;
 }
 
@@ -387,13 +387,13 @@ html {
     color: #1E1E1E;
     text-align: center;
     font-family: Josefin Sans;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     justify-content: flex-start;
     display: flex;
-    margin-left: 10px;
+    margin-left: 1rem;
     margin-top: -4.6rem;
 
 }
@@ -418,20 +418,20 @@ html {
 .nosotros4 {
     color: #1E1E1E;
     font-family: Josefin Sans;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     justify-content: flex-end;
     display: flex;
-    margin-right: 10px;
+    margin-right: 1rem;
     margin-top: -4.6rem;
 }
 
 .foto4 {
     padding: 1.5rem;
-    width: 370px;
-    height: 243px;
+    width: 37rem;
+    height: 24.3rem;
     flex-shrink: 0
 }
 
@@ -451,7 +451,7 @@ html {
     color: #1E1E1E;
     text-align: center;
     font-family: Josefin Sans;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -464,7 +464,7 @@ html {
     color: #101010;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -493,8 +493,8 @@ html {
     width: auto;
     margin: 1rem;
     text-align: center;
-    border: 1px solid #f2cc8f;
-    padding: 10px;
+    border: 0.1rem solid #f2cc8f;
+    padding: 1rem;
     background-color: #050A42;
 }
 
@@ -515,7 +515,7 @@ html {
     width: auto;
     height: 8rem;
     flex-shrink: 0;
-    border-radius: 30px;
+    border-radius: 3rem;
     background: #FF5559;
     border-color: #FF5559;
     color: #000;
@@ -546,7 +546,7 @@ html {
     color: #101010;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -556,21 +556,19 @@ html {
 }
 
 .contactob {
-    width: 500px;
-    height: 120px;
-    background: #050A42;
-    margin-left: 70rem;
-    margin-right: 70rem;
-
+    background: #FF5559;
+    margin: auto;
+    padding: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .contactob p{
     color: #FFF;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
-    margin-top: -10px;
-    padding: 8px;
+    margin-top: -1rem;
+    padding: 0.8rem;
     display: flex;
     justify-content:center;
 
@@ -578,11 +576,11 @@ html {
 
 
 .form_contact {
-    width: 600px;
+    width: 60rem;
     height: auto;
     flex-shrink: 0;
-    border-radius: 30px;
-    background: #D7B686;
+    border-radius: 3rem;
+    background: #f2cc8f;
     display: block;
     align-items: center;
     margin: auto;   
@@ -595,35 +593,35 @@ html {
 
     color: #101010;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: bold;
     display: block;
     text-align:left;
-    margin-bottom: 10px;
-    margin-left: 15px;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
 }
 
 .formulario {
-    width: 300px;
-    height: 40px;
+    width: 30rem;
+    height: 4rem;
     flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #D4EBFF;
+    border-radius: 1rem;
+    border: 0.1rem solid #D4EBFF;
     background: #FFF;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    margin: 1rem;
     padding: auto;
     border-color:#101010;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .formulario_m{
     flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #D4EBFF;
+    border-radius: 1rem;
+    border: 0.1rem solid #D4EBFF;
     background: #FFF;
     margin: 4rem;
     border-color:#101010;
@@ -631,20 +629,21 @@ html {
 }
 
 .enviar_form {
-    width: 102px;
-    height: 32px;
-    border-radius: 30px;
-    background: #140C37;
+    width: 10.2rem;
+    height: 3.2rem;
+    border-radius: 3rem;
+    background: #050A42;
     color: #FFF;
     text-align: center;
     font-family: Josefin Sans;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     margin-top: 4rem;
     display: block;
     justify-content: center;
     margin-left: 23rem;
+    border-color: #050A42;
 }
 
 
@@ -667,9 +666,9 @@ html {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px sans-serif;
+    font: bold 1.6rem sans-serif;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 50px 50px 60px 50px;
+    padding: 5rem 5rem 6rem 5rem;
 }
 
 .footer .footer-iz, .footer .footer-centro, .footer .footer-der {
@@ -700,7 +699,7 @@ html {
 
 .footer .footer-links {
     color: #ffffff;
-    margin: 20px 0 12px;
+    margin: 2rem 0 1.2rem;
 }
 
 .footer .footer-links a {
@@ -712,7 +711,7 @@ html {
 
 .footer .derechos {
     color: #8f9296;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: normal;
     margin: 0;
 }
@@ -731,7 +730,7 @@ html {
     height: 3.8rem;
     border-radius: 50%;
     text-align: center;
-    line-height: 42px;
+    line-height: 4.2rem;
     margin: 1rem 1.5rem;
     vertical-align: middle;
 }
@@ -789,8 +788,8 @@ html {
     color: #ffffff;
     text-align: center;
     line-height: 5rem;
-    margin-right: 3px;
-    margin-bottom: 5px;
+    margin-right: 0.3rem;
+    margin-bottom: 0.5rem;
     transition: all 0.2s ease-in;
     border: 0.2rem solid #FFF;
 }
@@ -808,7 +807,7 @@ html {
     .footer .footer-iz, .footer .footer-centro, .footer .footer-der {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 4rem;
         text-align: center;
     }
     .footer .footer-centro i {
