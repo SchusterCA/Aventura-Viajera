@@ -460,11 +460,13 @@ html {
 .contact2 {
     color: #101010;
     text-align: center;
-    font-family: Josefin Sans;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 
 }
 
@@ -474,15 +476,108 @@ html {
     background: #050A42;
     margin-left: 70rem;
     margin-right: 70rem;
+
 }
 
 .contactob p{
     color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    margin-top: -10px;
+    padding: 8px;
+    display: flex;
+    justify-content:center;
+
+}
+
+
+.form_contact {
+    width: 600px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #D7B686;
+    display: block;
+    align-items: center;
+    margin: auto;   
+    padding: 1.5rem;
+    margin-bottom: 35rem;
+    text-align: center;
+}
+
+.texto_cont {
+
+    color: #101010;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: bold;
+    display: block;
+    text-align:left;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.formulario {
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D4EBFF;
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: auto;
+    border-color:#101010;
+    font-size: 20px;
+}
+
+.formulario_m {
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #D4EBFF;
+    background: #FFF;
+    margin: 4rem;
+    border-color:#101010;
+}
+
+.enviar_form {
+    width: 102px;
+    height: 32px;
+    border-radius: 30px;
+    background: #140C37;
+    color: #FFF;
+    text-align: center;
     font-family: Josefin Sans;
     font-size: 25px;
     font-style: normal;
-
+    font-weight: 400;
+    margin-top: 4rem;
+    display: block;
+    justify-content: center;
+    margin-left: 23rem;
 }
+
+
+/**GALERIA**/
+
+.expositor {
+    display: flex;
+    justify-content: space-between;
+    background-color: #050A42;
+    margin: auto;
+    align-items: center;
+}
+
+.foto_gal {
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+
 
 /** footer **/
 
@@ -491,7 +586,6 @@ html {
     background-color: #050a42;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .footer-texto {
@@ -543,8 +637,13 @@ html {
 }
 
 .direcciones{
-    margin: 15px;
-    font-size: 10px;
+color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+line-height: normal;
+display: block;
+justify-content:right;
 }
 
 .final {
