@@ -444,6 +444,91 @@ html {
 }
 
 
+
+/**GALERÍA**/
+
+.gal_p {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    display: flex;
+    margin-top: 10rem;
+}
+
+.explicacion {
+    color: #101010;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+.gall  {
+    display: flex;
+    justify-content: center;
+    background-color: #e07a5f;
+    padding: 3rem;
+    margin: 3rem;
+    margin-bottom: 20rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    width: auto;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid #f2cc8f;
+    padding: 10px;
+    background-color: #050A42;
+}
+
+.image img {
+    width: auto;
+    height: 30rem;
+}
+
+
+
+.subir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+.imagen_sub {
+    width: auto;
+    height: 8rem;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FF5559;
+    border-color: #FF5559;
+    color: #000;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
 /** CONTACTO  **/
 
 .contact1 {
@@ -563,21 +648,6 @@ html {
 }
 
 
-/**GALERIA**/
-
-.expositor {
-    display: flex;
-    justify-content: space-between;
-    background-color: #050A42;
-    margin: auto;
-    align-items: center;
-}
-
-.foto_gal {
-    width: 200px;
-    height: auto;
-    margin: auto;
-}
 
 
 /** footer **/
