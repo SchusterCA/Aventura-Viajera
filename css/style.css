@@ -53,54 +53,43 @@ html {
         display: inline-block;
         margin-right: 8rem;
         text-decoration: none;
-    
+        cursor: pointer;
+        border-radius: 1rem;
+        transition: all 0.2s ease-in;
     }   
 
+    .navegacion a:hover {
+    background-color: #e07a5f;
+    border: 0.2rem solid #e07a5f;
 
-/** carrousel **/
+    }
 
-.foto {
-    width: 900px;
-    height: 500px;
-}
 
-.foto1{
-    width: 100%;
-    height: 500px; 
-}
+
+
 
 .ofertas h1 {
-    /*text-align: center;*/
-    padding: 35px;
+    margin-top: 10rem;
+    text-align: center;
+    padding: 3.5rem;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
+
 }
 
-.cont{
-    padding: 35px;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-}
-
-.ofertas {
-    text-align: center;
-}
-
-.panel {
-    container: fluid;
-    text-align: center;
-}
-
-.columna {
-    padding: 20px;
-    /*border: 5px solid #1b1b32;*/
+.ofertita {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    transition: all 0.2s ease-in;
+    justify-content: center;
+    margin-bottom: 20rem;
 }
+.ofertita img {
+    width: auto;
+    height: 43rem;
+}
+
+
+
+
 
 
 /** VIDEO **/
@@ -108,7 +97,7 @@ html {
 .video h1 {
 
     text-align: center;
-    padding: 35px;
+    padding: 3.5rem;
     font-size: 45px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -120,13 +109,24 @@ html {
 
 .calculadora h1 {
     text-align: center;
-    padding: 35px;
+    padding: 3.5rem;
     font-size: 45px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 
 /**banner calidad**/
+
+.columna {
+    padding: 20px;
+    /*border: 5px solid #1b1b32;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s ease-in;
+}
+
 
 
 .calidad{
@@ -292,7 +292,7 @@ html {
 }
 
 .snp {
-    padding: 35px;
+    padding: 3.5rem;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
@@ -450,7 +450,7 @@ html {
     color: #101010;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -535,13 +535,14 @@ html {
     font-size: 20px;
 }
 
-.formulario_m {
+.formulario_m{
     flex-shrink: 0;
     border-radius: 10px;
     border: 1px solid #D4EBFF;
     background: #FFF;
     margin: 4rem;
     border-color:#101010;
+    font-size: 1.5rem;
 }
 
 .enviar_form {
@@ -581,77 +582,166 @@ html {
 
 /** footer **/
 
-.seccion-oscura {
-    color: white;
-    background-color: #050a42;
-    display: flex;
-    align-items: center;
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
 }
 
-.footer-texto {
-    font-size: 1.5rem;
+.footer {
+    background-color: #050A42;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 50px 50px 60px 50px;
+}
+
+.footer .footer-iz, .footer .footer-centro, .footer .footer-der {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.footer .footer-iz {
+    width: 30%;
+}
+
+.footer h3 {
+    color: #ffffff;
+    font: normal 36px sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+
+.footer h3 span {
+    margin-left: 1rem;
+    color: white
+}
+
+
+
+.footer .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .derechos {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer .footer-centro {
+    width: 35%;
+}
+
+.footer .footer-centro i {
+    background-color: #e07a5f;
+    color: #ffffff;
+    font-size: 2rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
     text-align: center;
-    padding: 25px;
-    margin-bottom: 80px;
+    line-height: 42px;
+    margin: 1rem 1.5rem;
+    vertical-align: middle;
 }
 
-.iconos-redes-sociales {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.footer .footer-centro i.fa-envelope {
+    font-size: 1.7rem;
+    line-height: 3.8rem;
 }
 
-.iconos-redes-sociales a {
-    width: 50px;
-    height: 50px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 10px;
-    border: 2px solid white;
-    border-radius: 50px;
+.footer .footer-centro p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer .footer-centro p span {
+    display: block;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+
+.footer .footer-der {
+    width: 30%;
+}
+
+.footer .footer-redes {
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer .footer-redes span {
+    display: block;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.footer .footer-redesi {
+    margin-top: 2.5rem;
+}
+
+.footer .footer-redesi a {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    border-radius: 5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 5rem;
+    margin-right: 3px;
+    margin-bottom: 5px;
     transition: all 0.2s ease-in;
+    border: 0.2rem solid #FFF;
 }
 
-.iconos-redes-sociales i {
-    color: white;
-    font-size: 2.0rem;
-    transition: all 0.2s ease-in;
-}
-
-.iconos-redes-sociales a:hover {
+.footer .footer-redesi a:hover {
     background-color: #e9d758;
-    border: 4px solid #e07a5f;
+    border: 0.2rem solid #e07a5f;
 }
 
-.iconos-redes-sociales a:hover i {
-    color: black;
+.footer-links a:hover {
+    color: #e9d758;
 }
 
-.footer-texto{
-    text-decoration: none;
-    color: #f2cc8f;
-}
-
-.direcciones{
-color: #FFF;
-font-family: Inter;
-font-size: 15px;
-font-style: normal;
-line-height: normal;
-display: block;
-justify-content:right;
-}
-
-.final {
-    width: 14rem;
-    height: 14rem;
-    flex: shrink 0;
-}
-
-.final1{
-    font-size: medium;
+@media (max-width: 880px) {
+    .footer .footer-iz, .footer .footer-centro, .footer .footer-der {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer .footer-centro i {
+        margin-left: 0;
+    }
 }
