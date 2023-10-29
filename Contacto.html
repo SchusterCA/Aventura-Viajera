@@ -56,23 +56,26 @@
             <p> Mail aventuraviajera.t@gmail.com</p>
             </div>
 
-            <div><h2 class="contact2"> También podés contactarte completando el siguiente formulario</h2></div>
+            <div>
+                <h2 class="contact2"> También podés contactarte completando el siguiente formulario</h2>
+            </div>
 
-                <div class="form contact">
+                <div class="form_contact">
                     <form class="form_box" action="#">
-                        <label class="texto_cont" for="Datos">Nombre</label>
-                        <input class="fomrulario" type="Nombre" value="introduza su nombre">
+                        <label class="texto_cont" for="Datos">Nombre </label>
+                        <input class="formulario" type="Nombre" placeholder="introduza su nombre" id="nombre">
                         <label class="texto_cont" for="Datos">Apellido</label>
-                        <input class="fomrulario" type="Nombre" value="escriba su nombre aquí">
+                        <input class="formulario" type="Nombre" placeholder="introduza su apellido 
+                        " id="apellido">
                         <br>
-                        <label class="texto_cont" for="mail">E-mail</label>
-                        <input class="fomrulario" type="correo" value="example@gamil.com">
+                        <label class="texto_cont" for="mail"> E - mail  </label>
+                        <input class="formulario" type="correo" placeholder="example@gamil.com" id="correo">
                         <br>
                         <label class="texto_cont" for="telefono">Teléfono</label>
-                        <input class="fomrulario" type="telefono" value="ej +54 111111">
+                        <input class="formulario" type="telefono" placeholder="ej +54 111111" id="telefono">
                         <br>
                         <label class="texto_cont" for="mensaje">Mensaje</label>
-                        <input class="fomrulario_m" type="mensaje" value="por favor escriba su consulta o reclamo proporcionando los datos que crea necesarios">
+                        <textarea class="fomrulario_m" cols="50" rows="20" placeholder="introduzca aquí su consulta o reclamo colocando los datos que crea necesarios" id="mensaje"></textarea>
                         <br>
                         <button class="enviar_form">Enviar</button>
                     </form>
